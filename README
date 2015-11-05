@@ -1,0 +1,8 @@
+Original Code by Come-from-Beyond
+https://github.com/JinnLabs/SaM
+
+To use:
+Create a struct SaM variable and pass it to init_SaM
+Create a variable input int array of balanced ternary
+absorb() the array into the SaM struct
+squeeze() the hash into an output int array, length is 3^5
